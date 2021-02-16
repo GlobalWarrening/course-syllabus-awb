@@ -4,14 +4,40 @@ body{
 
 .title{
     text-align: center;
-    margin-left: 450px;
-    line-height: 1.5;
+    margin-left: 40%;
+    line-height: 1;
     font-size: 20px;
 }
 
 .instructor{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 30%;
     text-align: left;
     height: 20px;
 }
+
+.course{
+    margin-left: 30%;
+    text-align: left;
+
+}
+
+table.schedule, th.schedule, td.schedule{
+    border: 1px solid black;
+    border-collapse: collapse;
+    Margin-left: 30%;
+}
+
+td.schedule{
+    vertical-align: top;
+    text-align: center;
+}
+
+th.schedule{
+    background-color: grey;
+}
+
+p, ol{
+    margin-left: 30%;
+    text-align: left;
+}
+
